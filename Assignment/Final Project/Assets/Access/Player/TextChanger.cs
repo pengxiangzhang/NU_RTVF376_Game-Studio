@@ -8,14 +8,14 @@ public class TextChanger : MonoBehaviour
 
     void OnCollisionEnter(Collision other) {
         if (other.gameObject.name == "City") 
-            m_TextComponent.text = "Welcome, You are in a city.\nYou are trying to get to a christmas party.";
+            m_TextComponent.text = "Welcome, You are in a city.\nYou are trying to go to a christmas party.";
         else if (other.gameObject.name == "Suburban")
-            m_TextComponent.text = "Welcome, You are in a suburban.\nYou are trying to get to a christmas party.";
+            m_TextComponent.text = "Welcome, You are in a suburban.\nYou are trying to go to a christmas party.";
         else if (other.gameObject.name == "Forest")
-            m_TextComponent.text = "Welcome, You are in a Forest.\nYou are trying to get to a christmas party.";
+            m_TextComponent.text = "Welcome, You are in a forest.\nYou are trying to go to a christmas party.";
         else if (other.gameObject.name == "Construction")
-            m_TextComponent.text = "Welcome, You are in a Construction Site.\nYou are trying to get to a christmas party.";
+            m_TextComponent.text = "Welcome, You are in a construction site.\nYou are trying to go to a christmas party.";
         else if (other.gameObject.name == "Snow")
-            m_TextComponent.text = "Welcome to the christmas party.\nHave a great holiday!";
+            m_TextComponent.text = "Welcome to the christmas party.\nHave a great holiday season!";
     }
 }
